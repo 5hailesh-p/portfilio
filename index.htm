@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MyPortolio</title>
+    <!-- swiper link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">MyPortfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="bx bx-moon" id="DarkMode-icon"></div>
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- Home section -->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hii I am</h3>
+            <h1>Shailesh Patel</h1>
+            <p>A Web-Developer as well as A Data Analyst. Welcome to My Portfolio Here you can know more about me.</p>
+
+            <div class="social-media">
+                <a href="www.linkedin.com/in/shailesh-patel-sp"><i class='bx bxl-linkedin'></i></a>
+                <a href="/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://github.com/Angel-of-codes"><i class='bx bxl-github'></i></a>
+                <a href="https://www.youtube.com/@AngelofCodes"><i class='bx bxl-youtube'></i></a>
+            </div>
+            <a href="shailesh_web.pdf" class="btn">Download Resume <i class='bx bx-download'></i></a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-video'></i>
+                    <h3>Video Editor</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-scatter-chart'></i>
+                    <h3>Data Analyst</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Artist</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+        <div class="home-img">
+            <img src="" alt="">
+        </div>
+    </section>
+
+
+    <!-- about section  -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="piccc.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Hii, I'm Here To Help Your Next Project</h3>
+            <p>I have Good knowledge of Web-Developement, Data Analysis and Programming also. These are my few technical skills: Python, C, C++, php, HTML, CSS, Bootstrap, Wordpress, Tabluea, MS Excel, Pycharm etc. <br> I have worked with some <span style="font-weight: bold;">Projects</span> that are metioned in Portfolio section you can know more about that so must visit . <br> If you have any Query you can contact me.  </p>
+
+            <a href="/" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section  -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Developement</h3>
+                <p>In My opinon Web Developement is not just an activity it is a kind of process by which you can inhance your Creativity.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-video'></i>
+                <h3>Video Editor</h3>
+                <p>I am also a Video Editor as normal level i can edit short videos, long videos and Photos also. To be honest, i am not a high level editor. 
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-scatter-chart'></i>
+                <h3>Data Analyst</h3>
+                <p>As a Data Analyst i have a good knowledge about Data Analysis and Visualizatoin as well as tools used in Data Analytics.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+<!--             <div class="services-box">
+                <i class='bx bx-palette'></i>
+                <h3>Artist</h3>
+                <p>Drawing is one of my Hobbies i like making sketches and paintings. I enjoy making some sketchs of nature view.
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- Portfolio sectoin  -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Leatest <span>Project</span></h2>
+        <div class="portfolio-container">
+
+            <div class="portfolio-box">
+                <img src="weather.avif" alt="">
+                <div class="portfolio-layer">
+                    <h4>Weather-Angel</h4>
+                    <p>Weather-Angel is a site which is able to fetch weather related data of given location and provide accurate data using weather api. </p>
+                    <a href="https://angel-of-codes.github.io/Weather-Angel/"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="game.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Tic Tac Toe</h4>
+                    <p>Here is a Game which reminds our Childhood, This game will never get outdated cause everone has
+                        played in his life. </p>
+                    <a href="https://angel-of-codes.github.io/TIc-Tac-Toe/"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="music_player.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Music Player</h4>
+                    <p>This is an intresting project because, This is an mini Music player application user. In
+                        Developement i have used only normal html, css and javascript. </p>
+                    <a href="https://angel-of-codes.github.io/music_card/"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="weather1.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Weather App </h4>
+                    <p>This is a Weather reporting app which can display the more details about weather according the
+                        City name. In Developement i have used only normal html, css, javascript and a weather-api. </p>
+                    <a href="https://angel-of-codes.github.io/Weather_Card/"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="bootstarp_proj.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Online Attendance Management</h4>
+                    <p>This site is a Advance version of Attendance system which make managing attendance task effective. Developed on Bootstrap and php. </p>
+                    <a href="https://angel-of-codes.github.io/OAMS/"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="jalopy.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Car Collection "Jalopy"</h4>
+                    <p>Jalopy is a site which contains various types of cars information in one place. Developed on Wordpress [Astra] and Xampp.  </p>
+                    <a href="https://youtu.be/AoV8UvDyW9o"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="ems.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Employee Management System</h4>
+                    <p>This project is based on managing details of Employee, In this we can easily deals with Databases. Developed on Python and MySQL.</p>
+                    <a href="https://github.com/Angel-of-codes/Employee-Management-System-"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            
+            <div class="portfolio-box">
+                <img src="DA.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Food Delivery Analysis</h4>
+                    <p>This Project is Based upon Food Delivery Analysis in which we find some insights and trends. Developed on Python [pandas, numpy, matplotlib etc] libraries. </p>
+                    <a href="https://github.com/Angel-of-codes/food_delivery"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section testimonial  -->
+    <!-- <div class="testimonial-container">
+        <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="img4.jpg" alt="">
+                        <h3>Sumit</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla consequatur placeat repellat
+                            in eligendi voluptatum sequi, necessitatibus distinctio obcaecati recusandae natus iusto
+                            repellendus impedit enim!</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="img4.jpg" alt="">
+                        <h3>Stark</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla consequatur placeat repellat
+                            in eligendi voluptatum sequi, necessitatibus distinctio obcaecati recusandae natus iusto
+                            repellendus impedit enim!</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="img4.jpg" alt="">
+                        <h3>Professor</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla consequatur placeat repellat
+                            in eligendi voluptatum sequi, necessitatibus distinctio obcaecati recusandae natus iusto
+                            repellendus impedit enim!</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- contact section -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="tel" placeholder="Mobile No.">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section><br>
+
+
+    <!-- footer design -->
+    <foooter class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Angelofcodes | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </foooter>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- <script src="script.js"></script> -->
+
+
+    <!-- <section>
+        <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark"
+            data-type="VERTICAL" data-vanity="shailesh-patel-sp" data-version="v1"><a
+                class="badge-base__link LI-simple-link"
+                href="https://in.linkedin.com/in/shailesh-patel-sp?trk=profile-badge">Shailesh Patel</a></div>
+
+
+    </section>
+    linkedin
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script> -->
+
+
+<script>
+    /*################# menu icon navbar ################### */
+let menuIcon = document.querySelector('#menu-icon');
+let navbar = document.querySelector('.navbar');
+
+menuIcon.onclick = () => {
+    menuIcon.classList.toggle('bx-x');
+    navbar.classList.toggle('active');
+};
+
+/*################# scroll section sctive link ################### */
+
+let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header nav a');
+
+window.onscroll = () => {
+    sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 150;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id');
+
+        if (top > offset && top < offset + height) {
+            navLinks.forEach(links => {
+                links.classList.remove('active');
+                document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+            });
+        };
+    });
+    
+    // sticky navbar
+    let header = document.querySelector('.header');
+    header.classList.toggle('sticky', window.scrollY > 100);
+
+    /*################# remove menu icon when click navbar link(scroll) ################### */
+    menuIcon.classList.remove('bx-x');
+    navbar.classList.remove('active');
+
+
+
+};
+
+// swiper slide
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 50,
+    loop: true,
+    grabCursor: true,
+    pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+});
+
+/*################# color mode  ################### */
+let darkModeIcon = document.querySelector('#DarkMode-icon');
+
+darkModeIcon.onclick = () => {
+    darkModeIcon.classList.toggle('bx-sun');
+    document.body.classList.toggle('dark-Mode');
+};
+</script>
+</html>
